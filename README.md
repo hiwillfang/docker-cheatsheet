@@ -11,6 +11,7 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 `docker <command> <sub-command> (options)`
 
 * Get information on the latest version of Docker installed on your machine:
+
 `docker version`
 
 * Get Docker stats like how many containers and images are running:
