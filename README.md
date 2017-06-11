@@ -22,11 +22,19 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 
 	`docker`
 
+* Manage Docker volumes:
+
+	`docker volume`
+
+* Block until a container stops, then print its exit code:
+
+	`docker container wait`
+
 * Display all images: 
 
 	`docker images`
 
-* List your running containers **(old command: docker ps)**
+* List your running containers:
 
 	`docker container ls`
 
@@ -52,6 +60,10 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 
 	`docker top container_id`
 
+* Unpause all processes within one or more containers:
+
+	`docker container unpause`
+
 * Display metadata about a container such as startup, config, volumes, networking, etc. :
 
 	`docker container inspect`
@@ -59,6 +71,146 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 * Display which port a container is fowarding traffic to:
 
 	`docker container port container_name`
+
+* Attach to a running container:
+	
+	`docker container attach`
+
+* Build an image from a Dockerfile:
+
+	`docker image build`
+
+* Create a new image from a container's changes:
+
+	`docker container commit`
+
+* Copy files/folders between a container and the local filesystem:
+
+	`docker container cp`
+
+* Create a new container: 
+
+	`docker container create`
+
+* Inspect changes on a container's filesystem:
+
+	`docker container diff`
+
+* Get real time events from the server:
+
+	`docker container system events`
+
+* Run a command in a running container:
+
+	`docker container exec`
+
+* Export a container's filesystem as a tar archive:
+
+	`docker container export`
+
+* Show the history of an image
+
+	`docker image history`
+
+* List images:
+
+	`docker image ls`
+
+* Import the contents from a tarball to create a filesystem image:
+
+	`docker image import`
+
+* Display system-wide information:
+
+	`docker system info`
+
+* Return low-level information on a container, image or task:
+
+	`docker container inspect`
+
+* Kill one or more running container:
+
+	`docker container kill`
+
+* Load an image from a tar archive or STDIN
+
+	`docker image load`
+
+* Log in to a Docker registry:
+
+	`docker login`
+
+* Log out of a Docker registry:
+
+	`docker logout`
+
+* Manage Docker networks:
+
+	`docker network`
+
+* Manage Docker Swarm nodes:
+
+	`docker node`
+
+* Pause all processes within one or more containers:
+
+	`docker container pause`
+
+* List port mapping or a specific mapping for the container
+
+	`docker container port`
+
+* Pull an image or a repository from a registry:
+
+	`docker image pull`
+
+* Push an image or repository to a registry:
+
+	`docker image push`
+
+* Rename a container:
+
+	`docker container rename`
+
+* Restart a container:
+
+	`docker container restart`
+
+* Remove one or more containers:
+
+	`docker container rm`
+
+* Remove one or more images:
+	
+	`docker image rm`
+
+* Run a command in a new container:
+
+	`docker container run`
+
+* Save one or more images to a tar archive ***(streamed to STDOUT by default)***:
+
+	`docker image save`
+
+* Search Docker Hub for images:
+
+	`docker search`
+
+* Manage Docker services: 
+
+	`docker service`
+
+* Manage Docker Swarm:
+
+	`docker swarm`
+
+* Tag an image into a repository:
+
+	`docker image tag`
+
+* Update configuration of one or more containers:
+
+	`docker container update`
 
 * Display live performance data for all containers:
 
