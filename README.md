@@ -12,19 +12,24 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 
 * Get information on the latest version of Docker installed on your machine:
 
-`docker version`
+	`docker version`
 
 * Get Docker stats like how many containers and images are running:
-`docker info`
+
+	`docker info`
 
 * Print a list of all commands provided by Docker:
-`docker`
+
+	`docker`
 
 * Display all images: 
-`docker images`
+
+	`docker images`
 
 * List your running containers **(old command: docker ps)**
-`docker container ls`
-`docker container ls -a (-a flag lists all containers running or not)`
+
+	`docker container ls`
+
+	`docker container ls -a (-a flag lists all containers running or not)`
 
 
