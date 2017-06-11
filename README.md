@@ -7,4 +7,18 @@ Docker is the world's leading software container platform. Developers use Docker
 ### Docker Version 1.13
 As of the latest version (1.13) of Docker, Docker has reorganized it's commands into **management commands** and **sub-commands**. To see a list of all Docker commands run `docker`. This change is primarily associated with simplifying the CLI structure. All old commands will still work due to Docker's backwards compatibility.
 
+**DOCKER COMMAND FORMAT:**
+`docker <command> <sub-command> (options)`
+
+* Get information on the latest version of Docker installed on your machine:
+`docker version`
+
+* Get Docker stats like how many containers and images are running:
+`docker info`
+
+* Print a list of all commands provided by Docker:
+`docker`
+
+
+
 
