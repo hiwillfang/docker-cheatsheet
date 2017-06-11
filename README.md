@@ -48,4 +48,23 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 
 	`docker container logs --help`
 
+* List running processes in a specific container:
+
+	`docker top container_id`
+
+* Display metadata about a container such as startup, config, volumes, networking, etc. :
+
+	`docker container inspect`
+
+* Display which port a container is fowarding traffic to:
+
+	`docker container port container_name`
+
+* Display live performance data for all containers:
+
+	`docker container stats`
+
+	##### *** NOTE ***
+	The `docker container stats` command does not show the container_name. You can press CTRL + C to cancel stats and then run command `docker container ls -a` to compare performance stats with each unique container_name.
+
 
