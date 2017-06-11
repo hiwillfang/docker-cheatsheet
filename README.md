@@ -32,4 +32,20 @@ As of the latest version (1.13) of Docker, Docker has reorganized it's commands 
 
 	`docker container ls -a (-a flag lists all containers running or not)`
 
+* Start one or more running containers:
+
+	`docker container start`
+
+* Stop one or more running containers:
+
+	`docker container stop`
+
+* Display logs for a specific container:
+
+	`docker container logs container_name`
+
+	To see all log options:
+
+	`docker container logs --help`
+
 
